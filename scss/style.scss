@@ -1,0 +1,14 @@
+@use "sass:math";
+@use "_reset.scss";
+@import "_mixin.scss";
+
+.wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.page {
+	flex: 1 1 auto;
+	font-size: rem(100);
+}
