@@ -3,6 +3,19 @@
 @import "_header.scss";
 @import "_mixin.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html, body, * {
+	font-family: 'Oswald';
+}
+
+.container {
+	max-width: 1878px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
 .wrapper {
 	height: 100%;
 	display: flex;
@@ -11,6 +24,6 @@
 
 main {
 	flex: 1 1 auto;
-	font-size: rem(100);
+	margin-top: rem(120);
 }
 
