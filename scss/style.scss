@@ -1,6 +1,7 @@
 @use "sass:math";
 @use "_reset.scss";
 @import "_header.scss";
+@import "_common.scss";
 @import "_mixin.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
@@ -10,10 +11,10 @@ html, body, * {
 	font-family: 'Oswald';
 }
 
-.container {
-	max-width: 1878px;
+[class*="__container"] {
+	max-width: rem(1910);
+	padding: rem(0) rem(15);
 	margin: 0 auto;
-	padding: 0px 15px;
 }
 
 .wrapper {
