@@ -53,8 +53,4 @@ window.addEventListener('DOMContentLoaded', () => {
 	})
 
 	// adaptive 
-
-	const parentsOrigin = document.querySelector('.header__info'),
-			parent = document.querySelector('.menu__body'),
-			item = document.querySelector('.header-info__link');
 })
