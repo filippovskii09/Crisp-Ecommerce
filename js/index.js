@@ -35,7 +35,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	window.addEventListener('scroll', () => {
 		let scrollPos = window.scrollY
 
-		if (scrollPos >= 80) {
+		if (scrollPos >= 20) {
 			header.classList.add('header-fixed')
 		} else {
 			header.classList.remove('header-fixed')
