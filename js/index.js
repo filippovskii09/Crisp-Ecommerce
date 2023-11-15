@@ -41,4 +41,20 @@ window.addEventListener('DOMContentLoaded', () => {
 			header.classList.remove('header-fixed')
 		}
 	})
+
+
+	// burger button
+
+	const burgerButton = document.querySelector('.header__burger');
+
+	burgerButton.addEventListener('click', () => {
+		burgerButton.classList.toggle('open');
+		document.documentElement.classList.toggle('menu-open');
+	})
+
+	// adaptive 
+
+	const parentsOrigin = document.querySelector('.header__info'),
+			parent = document.querySelector('.menu__body'),
+			item = document.querySelector('.header-info__link');
 })

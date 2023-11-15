@@ -46,7 +46,7 @@
 				</div>
 				<div class="header__info header-info">
 					<button class="header-info__sign">sign in</button>
-					<a class="header-info__link" href="./create-account.html">create an account</a>
+					<a data-da="menu__body,last,520" class="header-info__link" href="./create-account.html">create an account</a>
 					<button class="header-info__btn">
 						<svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path fill-rule="evenodd" clip-rule="evenodd"
@@ -75,6 +75,14 @@
 						</div>
 					</div>
 				</div>
+				<div id="nav-icon2" class="header__burger">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				 </div>
 			</div>
 		</header>
 		<main class="page">
@@ -418,7 +426,7 @@
 	<script src="/js/index.js"></script>
 	<script src="/js/home.js"></script>
 	<script>
-		var swiper = new Swiper(".mySwiper", {
+		let swiper = new Swiper(".mySwiper", {
 		speed: 600,
 		parallax: true,
 		pagination: {
